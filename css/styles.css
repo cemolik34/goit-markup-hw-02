@@ -135,6 +135,7 @@ nav a {
     line-height: 1.5;
     letter-spacing: 3%;
     padding: 16px 32px;
+    border: none;
     
 }
 
@@ -147,15 +148,16 @@ nav a {
 .values {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 40px;
-    background-color: white;
-    padding: 120px 24px 120px 24px;
+    background-color: var(--white);
+    padding: 120px 24px;
+    gap: 24px;
+    margin: 0;
 }   
 
 .team-section {
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
     padding: 120px 24px 72px;
 }
 
@@ -166,4 +168,38 @@ nav a {
     gap: 24px;
     align-items: center;
     text-align: center;
+}
+
+.section-portfolio {
+    background-color: var(--white)
+    padding: 120px 24px 72px;
+}
+
+.ourportfolio {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--navy-blue);
+    padding: 40px;
+    color: var(--white);
+    text-align: left;
+    height: 312px;
+
+}
+
+.studiotext2 {
+    text-decoration-line: none;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    color: var(--cloud);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-align: left;
 }
