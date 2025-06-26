@@ -1,8 +1,60 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+    --body-font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--body-font-family);
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 2%;
+
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    width: 496px;
+    height: 1,07;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 36px;    
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
 .webtext {
     text-decoration-line: none;
     font-family: Raleway, sans-serif;
     font-weight: bold;
-    color: #4D5AE5;
+    color: var(--iris);
     font-size: 18px;
     line-height: 1.17px;
     letter-spacing: 3%;
@@ -72,18 +124,7 @@ nav a {
     height: 600px;
 }
 
-h1 {
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
-    color: #FFFFFF;
-    width: 496px;
-    height: 1,07;
-    text-align: center;
 
-}
 
 .herobutton {
     background-color: #4D5AE5;
@@ -102,28 +143,6 @@ h1 {
     cursor: pointer;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
-    letter-spacing: 2%;
-
-}
-
-h2 {
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
-    font-size: 36px;    
-    letter-spacing: 2%;
-    text-align: center;
-}
-
-h3 {
-    font-family: Roboto, sans-serif;
-    font-weight: medium;
-    font-size: 20px;
-    letter-spacing: 2%;
-}
 
 .values {
     list-style-type: none;
