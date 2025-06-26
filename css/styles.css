@@ -18,7 +18,7 @@ body {
     font-family: var(--body-font-family);
     line-height: 1.5;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.32px;
 
 }
 
@@ -27,10 +27,10 @@ h1 {
     font-weight: bold;
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: 2%;
+    letter-spacing: 1.12px;
     color: var(--white);
     width: 496px;
-    height: 1,07;
+    height: 1.07;
     text-align: center;
 
 }
@@ -39,7 +39,7 @@ h2 {
     font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 36px;    
-    letter-spacing: 2%;
+    letter-spacing: 0.72px;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ h3 {
     font-family: Roboto, sans-serif;
     font-weight: medium;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.40px;
 }
 
 .webtext {
@@ -57,7 +57,7 @@ h3 {
     color: var(--iris);
     font-size: 18px;
     line-height: 1.17px;
-    letter-spacing: 3%;
+    letter-spacing: 0.54px;
     margin-left: 156px;
 }
 
@@ -69,8 +69,20 @@ h3 {
     color: var(--navy-blue);
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.54px;
 }
+
+.studiotext:hover {
+    color: var(--ocean);
+    text-decoration: none;
+}
+
+.studiotext:active {
+    color: var(--ocean);
+    text-decoration: none;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -84,39 +96,47 @@ h3 {
 .header ul {
     
     list-style-type: none;
-    font-weight: medium;
+    font-weight: 500;
     gap: 40px;
     line-height: 1.5;
     font-size: 16px;
-    color: #2E2F42;
+    color: var(--navy-blue);
     display: flex;
     font-family: Roboto, sans-serif;
     padding: 0;
 }
 
+
 nav a {
     text-decoration: none;
-    color: #2E2F42;
-    font-weight: 400;
+    color: var(--navy-blue);
+    font-weight: 500;
     font-size: 16px;
-    
-
 } 
+
+nav a:hover {
+    color: var(--ocean);
+    
+}
 
 .address a {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--navy-blue);
     padding-left: 156px;
     text-decoration-line: none;
     font-style: normal;
-    
+    font-weight: 400;
+}
+
+.address a:hover {
+    color: var(--ocean);
 }
 
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--navy-blue);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,20 +147,20 @@ nav a {
 
 
 .herobutton {
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 3%;
+    letter-spacing: 0.48px;
     padding: 16px 32px;
     border: none;
     
 }
 
 .herobutton:hover {
-    background-color: #404bbf;
+    background-color: var(--ocean);
     cursor: pointer;
 }
 
@@ -171,7 +191,7 @@ nav a {
 }
 
 .section-portfolio {
-    background-color: var(--white)
+    background-color: var(--white);
     padding: 120px 24px 72px;
 }
 
@@ -200,6 +220,6 @@ nav a {
     color: var(--cloud);
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.54px;
     text-align: left;
 }
